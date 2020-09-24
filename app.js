@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const app = express();
 const _ = require("lodash");
-mongoose.connect("mongodb://localhost:27017/todolistDB");
+mongoose.connect("mongodb+srv://admin-Elderied:Test123@cluster0.0rehk.mongodb.net/todolistDB");
 
 const itemSchema = new mongoose.Schema({
   name: {
